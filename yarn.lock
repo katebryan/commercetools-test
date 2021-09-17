@@ -1205,6 +1205,61 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
+"@commercetools/importapi-sdk@^1.19.0":
+  "integrity" "sha512-ZZtnTHMTzrOww6E3U1hCtKrAQyZyKnx+nT9Ba9C32c3q8qGnnLQoOLel6om0lQPifNRTExFbWm5WVWZpfO+f2g=="
+  "resolved" "https://registry.npmjs.org/@commercetools/importapi-sdk/-/importapi-sdk-1.19.0.tgz"
+  "version" "1.19.0"
+  dependencies:
+    "@commercetools/sdk-client" "^2.1.1"
+    "@commercetools/sdk-middleware-auth" "^6.0.4"
+    "@commercetools/sdk-middleware-http" "^6.0.4"
+    "@commercetools/sdk-middleware-logger" "^2.1.1"
+    "querystring" "^0.2.1"
+
+"@commercetools/ml-sdk@^1.18.1":
+  "integrity" "sha512-jiYbINFoEPMrnfkRIFlG2PHRg5WHa+l8fVZsdwNz2IZOw870pf+TnCrWJW/0Jbi/nufwEEUjeH/b8Lm8PdNsIA=="
+  "resolved" "https://registry.npmjs.org/@commercetools/ml-sdk/-/ml-sdk-1.18.1.tgz"
+  "version" "1.18.1"
+  dependencies:
+    "@commercetools/sdk-client" "^2.1.1"
+    "@commercetools/sdk-middleware-auth" "^6.0.4"
+    "@commercetools/sdk-middleware-http" "^6.0.4"
+    "@commercetools/sdk-middleware-logger" "^2.1.1"
+    "querystring" "^0.2.1"
+
+"@commercetools/platform-sdk@^1.18.1":
+  "integrity" "sha512-k7aSArXfb0qmVkBxtjnNMAC55TizFnkjZXRUBAvHSX8hAsZc8t5gyj6rs9v+m2Iyu07bI9t+hb1pfTr5lDD3EQ=="
+  "resolved" "https://registry.npmjs.org/@commercetools/platform-sdk/-/platform-sdk-1.18.1.tgz"
+  "version" "1.18.1"
+  dependencies:
+    "@commercetools/sdk-client" "^2.1.1"
+    "@commercetools/sdk-middleware-auth" "^6.0.4"
+    "@commercetools/sdk-middleware-http" "^6.0.4"
+    "@commercetools/sdk-middleware-logger" "^2.1.1"
+    "querystring" "^0.2.1"
+
+"@commercetools/sdk-client@^2.1.1":
+  "integrity" "sha512-YPpK39pkjfedjS1/BFg2d7CrvTeN7vIS5vfiqEkKOtAoUxiNkugv59gRSoh2Em8SOccxyM/skpgHyTqfmJzXug=="
+  "resolved" "https://registry.npmjs.org/@commercetools/sdk-client/-/sdk-client-2.1.2.tgz"
+  "version" "2.1.2"
+
+"@commercetools/sdk-middleware-auth@^6.0.4":
+  "integrity" "sha512-49R1DWsA+pNHH7/2K6QU5wnJSXabljKA8dvzs5HcbLwutlDp3Io0XHgIJa9qpfYhgW6k0h9dPICcLbESrQBXYw=="
+  "resolved" "https://registry.npmjs.org/@commercetools/sdk-middleware-auth/-/sdk-middleware-auth-6.1.4.tgz"
+  "version" "6.1.4"
+  dependencies:
+    "node-fetch" "^2.3.0"
+
+"@commercetools/sdk-middleware-http@^6.0.4":
+  "integrity" "sha512-9Keb5rv6fvdA9qdehBEjk/JMrAzlBbg76TodsvhCZZZteaO0+ybjFgtV0ekdGyI4awxOxgsiPDZrTmQNvnI5Wg=="
+  "resolved" "https://registry.npmjs.org/@commercetools/sdk-middleware-http/-/sdk-middleware-http-6.0.11.tgz"
+  "version" "6.0.11"
+
+"@commercetools/sdk-middleware-logger@^2.1.1":
+  "integrity" "sha512-k/Jm3lsWbszPBHtPAvu0rINTq398p4ddv0zbAH8R4p6Yc1GkBEy6tNgHPzX/eFskI/qerPy9IsW1xK8pqgtHHQ=="
+  "resolved" "https://registry.npmjs.org/@commercetools/sdk-middleware-logger/-/sdk-middleware-logger-2.1.1.tgz"
+  "version" "2.1.1"
+
 "@csstools/convert-colors@^1.4.0":
   "integrity" "sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw=="
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
@@ -6653,6 +6708,7 @@
     "jest-snapshot" "^26.6.2"
 
 "jest-resolve@*":
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ=="
   "version" "26.6.0"
   dependencies:
     "@jest/types" "^26.6.0"
@@ -7668,6 +7724,11 @@
   dependencies:
     "lower-case" "^2.0.2"
     "tslib" "^2.0.3"
+
+"node-fetch@^2.3.0":
+  "integrity" "sha512-aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.2.tgz"
+  "version" "2.6.2"
 
 "node-forge@^0.10.0":
   "integrity" "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="
@@ -9212,6 +9273,11 @@
   "version" "0.2.1"
 
 "querystring@^0.2.0":
+  "integrity" "sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg=="
+  "resolved" "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz"
+  "version" "0.2.1"
+
+"querystring@^0.2.1":
   "integrity" "sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg=="
   "resolved" "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz"
   "version" "0.2.1"
